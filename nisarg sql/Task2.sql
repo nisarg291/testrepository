@@ -363,3 +363,5 @@ SELECT EmployeeID,FirstName,LastName,LastName,Salary FROM Employees ORDER BY Sal
 
 /* query13 */
 SELECT TOP 10 Salary FROM Employees;
+/*or*/
+SELECT Salary FROM Employees LIMIT 2;
